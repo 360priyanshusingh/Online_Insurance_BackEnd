@@ -428,3 +428,16 @@ error:
       method - GET 
       IP - ::1
      {"timestamp":"2024-11-25T10:34:41.373Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'create')
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\agent.service.js:52:25)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9) 
+    url - /api/v1/agents/createAgent 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-25T11:25:56.300Z"}

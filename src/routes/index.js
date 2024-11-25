@@ -3,6 +3,7 @@ const router = express.Router();
 
 import adminRoute from './admin.route';
 import employeeRoute from './employee.route';
+import agentRoute from './agent.route';
 /**
  * Function contains Application routes
  *
@@ -14,6 +15,7 @@ const routes = () => {
   });
   router.use('/admins', adminRoute);
   router.use('/employees', employeeRoute);
+  router.use('/agents', agentRoute);
 
   return router;
 };

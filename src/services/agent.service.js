@@ -4,43 +4,41 @@ import bcrypt  from 'bcrypt' ;
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv'
 dotenv.config()
-const Employee = require('../models/employee')(sequelize, DataTypes);
+const Agent = require('../models/agent')(sequelize, DataTypes);
 
 
-
-
-export const newEmployee = async (body) => {
-  const data = await Employee.findOne({where:{userName:body.userName , email:body.email}});
+export const newAgent = async (body) => {
+  const data = await Agent.findOne({where:{userName:body.userName , email:body.email}});
   if (data) {
     return {
       code: HttpStatus.CONFLICT, // 409 status code
       data: [],
-      message: "Employee already exists"
+      message: "Agent already exists"
     };
   } else {
 
     const hashedPassword = await bcrypt.hash(body.password, 4);
     body.password = hashedPassword;
-    const employee = await Employee.create(body);
+    const agent = await Agent.create(body);
 
     return {
       code: HttpStatus.CREATED, // 201 status code
-      data: employee,
-      message: "Employee successfully created"
+      data: agent,
+      message: "Agent successfully created"
     };
 
   }
 
 };
 
-//update single Employee
-export const EmployeeLogin = async (body) => {
-  const data = await Employee.findOne({ where: { email: body.email } });
+//update single Agent
+export const AgentLogin = async (body) => {
+  const data = await Agent.findOne({ where: { email: body.email } });
   if (!data) {
     return {
       code: HttpStatus.NOT_FOUND, // 404 status code
       data: null,
-      message: "Employee not found"
+      message: "Agent not found"
     };
   }
 
@@ -50,7 +48,7 @@ export const EmployeeLogin = async (body) => {
     return {
       code: HttpStatus.UNAUTHORIZED, // 401 status code
       data: null,
-      message: "Employee password is wrong!"
+      message: "Agent password is wrong!"
     };
   }
 
@@ -66,26 +64,26 @@ export const EmployeeLogin = async (body) => {
   return {
     code: HttpStatus.ACCEPTED, // 202 status code (Accepted for processing)
     data: token,
-    message: "Employee successfully logged in"
+    message: "Agent successfully logged in"
   };
 };
 
 
 
-export const getEmployee = async (id) => {
-  const data = await Employee.findByPk(id);
+export const getAgent = async (id) => {
+  const data = await Agent.findByPk(id);
 
  if (!data) {
     return {
       code: HttpStatus.NOT_FOUND, // 404 status code
       data: null,
-      message: 'Employee not found'
+      message: 'Agent not found'
     };
   }
   return {
     code: HttpStatus.OK, // 200 status code
     data:data,
-    message: 'Employee successfully retrieved'
+    message: 'Agent successfully retrieved'
 
 }
 
