@@ -414,3 +414,111 @@ error:
    {"timestamp":"2024-11-25T06:51:42.911Z"}
 info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T06:53:51.054Z"}
 info: Connected to the database. {"timestamp":"2024-11-25T06:53:51.217Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T09:44:36.097Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T09:44:36.258Z"}
+error: 
+    status - 500 
+    message - Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at async PostgresQueryInterface.insert (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async admin.save (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:2490:35)
+    at async Function.create (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1362:12) 
+    url - /api/v1/admins/createAdmin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-25T09:46:49.717Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "EmployeeName" has invalid "undefined" value
+    at PostgresQueryGenerator.whereItemQuery (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1746:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1737:25
+    at Array.forEach (<anonymous>)
+    at PostgresQueryGenerator.whereItemsQuery (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1735:35)
+    at PostgresQueryGenerator.getWhereConditions (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2078:19)
+    at PostgresQueryGenerator.selectQuery (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-generator.js:991:28)
+    at PostgresQueryInterface.select (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:59)
+    at Function.findAll (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1140:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.findOne (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1240:12) 
+    url - /api/v1/employees/createEmployee 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-25T09:47:55.565Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "EmployeeName" has invalid "undefined" value
+    at PostgresQueryGenerator.whereItemQuery (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1746:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1737:25
+    at Array.forEach (<anonymous>)
+    at PostgresQueryGenerator.whereItemsQuery (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1735:35)
+    at PostgresQueryGenerator.getWhereConditions (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2078:19)
+    at PostgresQueryGenerator.selectQuery (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-generator.js:991:28)
+    at PostgresQueryInterface.select (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:59)
+    at Function.findAll (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1140:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.findOne (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1240:12) 
+    url - /api/v1/employees/createEmployee 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-25T09:48:30.285Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T09:52:56.277Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T09:52:56.435Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'create')
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\employee.service.js:73:28)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9) 
+    url - /api/v1/employees/createEmployee 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-25T09:53:02.061Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'create')
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\employee.service.js:73:28)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9) 
+    url - /api/v1/employees/createEmployee 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-25T09:56:02.595Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T09:56:13.087Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T09:56:13.218Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'create')
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\employee.service.js:73:28)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9) 
+    url - /api/v1/employees/createEmployee 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-25T09:56:18.331Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T09:57:56.329Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T09:57:56.488Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T10:04:25.733Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T10:04:25.909Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T10:09:25.840Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T10:09:25.979Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T10:19:22.697Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T10:19:22.817Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T10:34:29.975Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T10:34:30.145Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/employees/getEmployee 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-25T10:34:41.373Z"}

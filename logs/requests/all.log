@@ -290,3 +290,43 @@ info: ::1 - - [25/Nov/2024:06:56:12 +0000] "GET /api/v1/admins/getAllAdmin HTTP/
 
 info: ::1 - - [25/Nov/2024:06:56:19 +0000] "GET /api/v1/admins/getAdmin/3 HTTP/1.1" 200 331 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [25/Nov/2024:09:46:49 +0000] "POST /api/v1/admins/createAdmin HTTP/1.1" 500 51 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:09:47:55 +0000] "POST /api/v1/employees/createEmployee HTTP/1.1" 500 99 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:09:48:30 +0000] "POST /api/v1/employees/createEmployee HTTP/1.1" 500 99 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:09:53:02 +0000] "POST /api/v1/employees/createEmployee HTTP/1.1" 500 89 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:09:56:02 +0000] "POST /api/v1/employees/createEmployee HTTP/1.1" 500 89 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:09:56:18 +0000] "POST /api/v1/employees/createEmployee HTTP/1.1" 500 89 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:09:58:01 +0000] "POST /api/v1/employees/createEmployee HTTP/1.1" 201 332 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:05:35 +0000] "POST /api/v1/employees/employeeLogin HTTP/1.1" 202 261 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:10:12 +0000] "GET /api/v1/employees/getEmployee/3 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:10:40 +0000] "GET /api/v1/employees/getEmployee/1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:10:44 +0000] "GET /api/v1/employees/getEmployee/2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:10:48 +0000] "GET /api/v1/employees/getEmployee/3 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:14:24 +0000] "GET /api/v1/employees/getEmployee/2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:15:06 +0000] "GET /api/v1/employees/getEmployee/1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:19:08 +0000] "GET /api/v1/employees/getEmployee/1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:19:27 +0000] "GET /api/v1/employees/getEmployee/1 HTTP/1.1" 200 334 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:19:35 +0000] "GET /api/v1/employees/getEmployee/2 HTTP/1.1" 404 55 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:34:37 +0000] "GET /api/v1/employees/getEmployee/2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:34:41 +0000] "GET /api/v1/employees/getEmployee HTTP/1.1" 400 56 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:10:35:04 +0000] "GET /api/v1/employees/getEmployee HTTP/1.1" 200 334 "-" "PostmanRuntime/7.42.0"
+
