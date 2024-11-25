@@ -1,0 +1,50 @@
+info: ::1 - - [25/Nov/2024:05:38:45 +0000] "GET /api/v1/admins/getAdmin/1 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:05:40:44 +0000] "GET /api/v1/admins/getAdmin/1 HTTP/1.1" 500 60 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:05:41:49 +0000] "GET /api/v1/admins/getAdmin/1 HTTP/1.1" 200 111 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:05:44:16 +0000] "GET /api/v1/admins/getAdmin/1 HTTP/1.1" 404 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:05:44:42 +0000] "GET /api/v1/admins/getAdmin/2 HTTP/1.1" 200 284 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:05:44:57 +0000] "GET /api/v1/admins/getAdmin/3 HTTP/1.1" 404 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:05:55:10 +0000] "POST /api/v1/admins/createAdmin HTTP/1.1" 409 54 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:05:29 +0000] "POST /api/v1/admins/createAdmin HTTP/1.1" 409 54 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:05:36 +0000] "PUT /api/v1/admins/updateAdmin/1 HTTP/1.1" 202 120 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:11:03 +0000] "PUT /api/v1/admins/updateAdmin/1 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:12:57 +0000] "PUT /api/v1/admins/updateAdmin/1 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:13:10 +0000] "PUT /api/v1/admins/updateAdmin/1 HTTP/1.1" 200 183 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:13:33 +0000] "PUT /api/v1/admins/updateAdmin/2 HTTP/1.1" 200 183 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:13:39 +0000] "PUT /api/v1/admins/updateAdmin/3 HTTP/1.1" 404 50 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:14:06 +0000] "PUT /api/v1/admins/updateAdmin/1 HTTP/1.1" 404 50 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:14:11 +0000] "PUT /api/v1/admins/updateAdmin/1 HTTP/1.1" 404 50 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:36:02 +0000] "POST /api/v1/admins/adminLogin HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:37:09 +0000] "POST /api/v1/admins/adminLogin HTTP/1.1" 500 56 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:39:34 +0000] "POST /api/v1/admins/adminLogin HTTP/1.1" 401 60 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:44:23 +0000] "POST /api/v1/admins/createAdmin HTTP/1.1" 201 328 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:44:48 +0000] "POST /api/v1/admins/adminLogin HTTP/1.1" 500 53 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:51:42 +0000] "POST /api/v1/admins/adminLogin HTTP/1.1" 500 71 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:53:54 +0000] "POST /api/v1/admins/adminLogin HTTP/1.1" 202 251 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:56:12 +0000] "GET /api/v1/admins/getAllAdmin HTTP/1.1" 200 333 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Nov/2024:06:56:19 +0000] "GET /api/v1/admins/getAdmin/3 HTTP/1.1" 200 331 "-" "PostmanRuntime/7.42.0"
+

@@ -1,0 +1,101 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T05:38:27.698Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T05:38:27.900Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee5$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\admin.service.js:122:11)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.getAdmin (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\admin.service.js:146:18) 
+    url - /api/v1/admins/getAdmin/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:38:44.988Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T05:40:30.918Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T05:40:31.069Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee5$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\admin.service.js:132:19)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admins/getAdmin/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-25T05:40:44.728Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T05:41:43.830Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T05:41:43.957Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T05:44:10.377Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T05:44:10.559Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T05:53:52.128Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T05:53:52.280Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T05:54:48.999Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T05:54:49.158Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T06:03:57.245Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T06:03:57.376Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T06:05:24.352Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T06:05:24.476Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T06:09:40.995Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T06:09:41.111Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T06:13:08.152Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T06:13:08.300Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T06:36:44.063Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T06:36:44.190Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee3$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\admin.service.js:136:11)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admins/adminLogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-25T06:37:09.086Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T06:38:48.599Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T06:39:20.754Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T06:39:20.854Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\admin.service.js:151:11)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9) 
+    url - /api/v1/admins/adminLogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-25T06:44:48.833Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T06:51:37.503Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T06:51:37.663Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee3$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\admin.service.js:154:44)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9) 
+    url - /api/v1/admins/adminLogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-25T06:51:42.911Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T06:53:51.054Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T06:53:51.217Z"}

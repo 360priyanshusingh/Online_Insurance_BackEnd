@@ -1,0 +1,144 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-22T09:08:12.920Z"}
+error: Could not connect to the database. Access denied for user 'sisod'@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'sisod'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'sisod'@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'sisod'@'localhost' (using password: YES)\n    at ConnectionManager.connect (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:94:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ConnectionManager._connect (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:222:24)\n    at async C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:174:32","timestamp":"2024-11-22T09:08:12.940Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-22T09:14:32.937Z"}
+error: Could not connect to the database. password authentication failed for user "sisod" {"name":"SequelizeConnectionError","original":{"code":"28P01","file":"auth.c","length":101,"line":"329","name":"error","routine":"auth_failed","severity":"FATAL"},"parent":{"code":"28P01","file":"auth.c","length":101,"line":"329","name":"error","routine":"auth_failed","severity":"FATAL"},"stack":"SequelizeConnectionError: password authentication failed for user \"sisod\"\n    at Client._connectionCallback (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:145:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\client.js:326:19)\n    at Client._handleErrorMessage (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\client.js:346:19)\n    at Connection.emit (node:events:518:28)\n    at C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\connection.js:116:12\n    at Parser.parse (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg-protocol\\dist\\parser.js:36:17)\n    at Socket.<anonymous> (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg-protocol\\dist\\index.js:11:42)\n    at Socket.emit (node:events:518:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)","timestamp":"2024-11-22T09:14:33.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-22T09:15:26.445Z"}
+error: Could not connect to the database. password authentication failed for user "sisod" {"name":"SequelizeConnectionError","original":{"code":"28P01","file":"auth.c","length":101,"line":"329","name":"error","routine":"auth_failed","severity":"FATAL"},"parent":{"code":"28P01","file":"auth.c","length":101,"line":"329","name":"error","routine":"auth_failed","severity":"FATAL"},"stack":"SequelizeConnectionError: password authentication failed for user \"sisod\"\n    at Client._connectionCallback (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:145:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\client.js:326:19)\n    at Client._handleErrorMessage (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\client.js:346:19)\n    at Connection.emit (node:events:518:28)\n    at C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\connection.js:116:12\n    at Parser.parse (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg-protocol\\dist\\parser.js:36:17)\n    at Socket.<anonymous> (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg-protocol\\dist\\index.js:11:42)\n    at Socket.emit (node:events:518:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)","timestamp":"2024-11-22T09:15:26.522Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-22T09:26:39.747Z"}
+error: Could not connect to the database. password authentication failed for user "sisod" {"name":"SequelizeConnectionError","original":{"code":"28P01","file":"auth.c","length":101,"line":"329","name":"error","routine":"auth_failed","severity":"FATAL"},"parent":{"code":"28P01","file":"auth.c","length":101,"line":"329","name":"error","routine":"auth_failed","severity":"FATAL"},"stack":"SequelizeConnectionError: password authentication failed for user \"sisod\"\n    at Client._connectionCallback (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:145:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\client.js:326:19)\n    at Client._handleErrorMessage (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\client.js:346:19)\n    at Connection.emit (node:events:518:28)\n    at C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\connection.js:116:12\n    at Parser.parse (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg-protocol\\dist\\parser.js:36:17)\n    at Socket.<anonymous> (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg-protocol\\dist\\index.js:11:42)\n    at Socket.emit (node:events:518:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)","timestamp":"2024-11-22T09:26:39.788Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T09:31:50.415Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T09:31:50.697Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T09:32:50.537Z"}
+error: Could not connect to the database. database "Tnsurance" does not exist {"name":"SequelizeConnectionError","original":{"code":"3D000","file":"postinit.c","length":94,"line":"947","name":"error","routine":"InitPostgres","severity":"FATAL"},"parent":{"code":"3D000","file":"postinit.c","length":94,"line":"947","name":"error","routine":"InitPostgres","severity":"FATAL"},"stack":"SequelizeConnectionError: database \"Tnsurance\" does not exist\n    at Client._connectionCallback (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:145:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\client.js:326:19)\n    at Client._handleErrorMessage (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\client.js:346:19)\n    at Connection.emit (node:events:518:28)\n    at C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\connection.js:116:12\n    at Parser.parse (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg-protocol\\dist\\parser.js:36:17)\n    at Socket.<anonymous> (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg-protocol\\dist\\index.js:11:42)\n    at Socket.emit (node:events:518:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)","timestamp":"2024-11-22T09:32:50.633Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T09:33:59.248Z"}
+error: Could not connect to the database. database "Tnsurance" does not exist {"name":"SequelizeConnectionError","original":{"code":"3D000","file":"postinit.c","length":94,"line":"947","name":"error","routine":"InitPostgres","severity":"FATAL"},"parent":{"code":"3D000","file":"postinit.c","length":94,"line":"947","name":"error","routine":"InitPostgres","severity":"FATAL"},"stack":"SequelizeConnectionError: database \"Tnsurance\" does not exist\n    at Client._connectionCallback (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:145:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\client.js:326:19)\n    at Client._handleErrorMessage (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\client.js:346:19)\n    at Connection.emit (node:events:518:28)\n    at C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg\\lib\\connection.js:116:12\n    at Parser.parse (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg-protocol\\dist\\parser.js:36:17)\n    at Socket.<anonymous> (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\pg-protocol\\dist\\index.js:11:42)\n    at Socket.emit (node:events:518:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)","timestamp":"2024-11-22T09:33:59.310Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T09:34:40.625Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T09:34:40.766Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T10:16:19.030Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T10:16:54.422Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T10:20:42.697Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T10:20:42.855Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T11:24:36.663Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T11:24:37.038Z"}
+error: 
+    status - 500 
+    message - Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.insert (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async admin.save (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:2490:35)
+    at async Function.create (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1362:12) 
+    url - /api/v1/admins/createAdmin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-22T11:27:43.483Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T11:34:29.990Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T11:34:30.153Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T11:35:24.668Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T11:35:24.979Z"}
+error: 
+    status - 500 
+    message - Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.insert (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async admin.save (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:2490:35)
+    at async Function.create (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1362:12) 
+    url - /api/v1/admins/createAdmin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-22T11:35:33.411Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T11:38:33.543Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T11:38:33.786Z"}
+error: 
+    status - 500 
+    message - Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.insert (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async admin.save (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:2490:35)
+    at async Function.create (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1362:12) 
+    url - /api/v1/admins/createAdmin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-22T11:38:36.180Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T11:39:18.205Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T11:39:18.378Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T11:42:31.430Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T11:42:31.586Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T11:43:09.007Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T11:43:09.226Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T11:46:08.063Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T11:46:08.189Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T11:47:06.164Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T11:47:06.309Z"}
+error: 
+    status - 500 
+    message - Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.insert (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async admin.save (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:2490:35)
+    at async Function.create (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1362:12) 
+    url - /api/v1/admins/createAdmin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-22T11:47:18.247Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T11:57:12.408Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T11:57:12.579Z"}
+error: 
+    status - 500 
+    message - Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.insert (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async admin.save (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:2490:35)
+    at async Function.create (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1362:12) 
+    url - /api/v1/admins/createAdmin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-22T11:57:16.318Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T11:58:56.129Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T11:58:56.333Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/admins/getAllAdmin 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-22T12:08:05.132Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/admins/getAllAdmin 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-22T12:09:23.405Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T12:09:50.035Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T12:09:50.176Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T12:19:43.957Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T12:19:44.281Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/admins/getAdmin/1 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-22T12:19:49.123Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T12:20:09.652Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T12:20:09.871Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T12:25:49.683Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T12:25:49.891Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T12:27:37.937Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T12:27:38.125Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T12:28:24.059Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T12:28:24.231Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T12:36:05.383Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T12:36:05.558Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-22T12:37:30.075Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T12:37:30.231Z"}
