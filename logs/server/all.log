@@ -545,3 +545,41 @@ info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T1
 info: Connected to the database. {"timestamp":"2024-11-25T11:26:17.554Z"}
 info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-25T11:30:32.247Z"}
 info: Connected to the database. {"timestamp":"2024-11-25T11:30:32.392Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-26T05:24:25.101Z"}
+info: Connected to the database. {"timestamp":"2024-11-26T05:24:25.327Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-26T05:31:31.048Z"}
+info: Connected to the database. {"timestamp":"2024-11-26T05:31:31.153Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/customers/createCustomer 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-11-26T05:31:42.754Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-26T05:58:35.041Z"}
+info: Connected to the database. {"timestamp":"2024-11-26T05:58:35.134Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/customers/createCustomer 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-11-26T05:59:56.793Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-26T06:05:23.395Z"}
+info: Connected to the database. {"timestamp":"2024-11-26T06:05:23.596Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/customers/createCustomer 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-11-26T06:06:02.503Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/customers/createCustomer 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-11-26T06:06:06.316Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-26T06:16:54.604Z"}
+info: Connected to the database. {"timestamp":"2024-11-26T06:16:54.739Z"}
