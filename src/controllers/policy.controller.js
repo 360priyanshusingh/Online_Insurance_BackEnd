@@ -17,7 +17,7 @@ export const getPolicyById = async (req, res, next) => {
 
 export const getPolicy = async (req, res, next) => {
   try {
-    const data = await PolicyService.getPolicy();
+    const data = await PolicyService.getPolicy(req.body.userId);
     res.status(data.code).json({
       code: data.code,
       data: data.data,

@@ -8,7 +8,6 @@ const Policy = require('../models/policy')(sequelize, DataTypes);
 
 
 export const newPolicy = async (body) => {
-
     body.customerId=body.userId
     delete body.userId
     const policy = await Policy.create(body);
@@ -39,10 +38,10 @@ export const getPolicyById = async (id) => {
 
 }
 
-export const getPolicy = async () => {
-  const data = await Policy.findAll();
+export const getPolicy = async (customerId) => {
+  const data = await Policy.findAll({where:{customerId:customerId}});
 
- if (!data) {
+ if (!data || data.length==0) {
     return {
       code: HttpStatus.NOT_FOUND, // 404 status code
       data: null,

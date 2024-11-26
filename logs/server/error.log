@@ -469,3 +469,51 @@ error:
       method - POST 
       IP - ::1
      {"timestamp":"2024-11-26T06:06:06.316Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/policys/createPolicy 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-11-26T11:24:53.566Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/policys/getPolicy 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-26T11:40:24.605Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\middlewares\auth.middleware.js:42:43)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7 
+    url - /api/v1/policys/getPolicy 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-26T11:40:33.592Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\middlewares\auth.middleware.js:42:43)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7 
+    url - /api/v1/policys/getPolicy 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-26T11:40:41.903Z"}

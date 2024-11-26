@@ -444,3 +444,45 @@ info: ::1 - - [26/Nov/2024:09:14:43 +0000] "GET /api/v1/schemes/getScheme HTTP/1
 
 info: ::1 - - [26/Nov/2024:09:15:58 +0000] "GET /api/v1/schemes/getScheme HTTP/1.1" 200 216 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [26/Nov/2024:11:21:31 +0000] "POST /api/v1/customers/customerLogin HTTP/1.1" 202 261 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:24:11 +0000] "POST /api/v1/policys/createPolicy HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:24:53 +0000] "POST /api/v1/policys/createPolicy HTTP/1.1" 400 43 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:25:49 +0000] "POST /api/v1/policys/createPolicy HTTP/1.1" 201 303 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:32:21 +0000] "GET /api/v1/policys/getPolicyById/1 HTTP/1.1" 200 305 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:32:27 +0000] "GET /api/v1/policys/getPolicyById/2 HTTP/1.1" 404 53 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:32:32 +0000] "GET /api/v1/policys/getPolicyById/1 HTTP/1.1" 200 305 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:35:58 +0000] "GET /api/v1/policys/getPolicy HTTP/1.1" 200 307 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:40:16 +0000] "GET /api/v1/policys/getPolicy HTTP/1.1" 200 307 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:40:24 +0000] "GET /api/v1/policys/getPolicy HTTP/1.1" 400 56 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:40:33 +0000] "GET /api/v1/policys/getPolicy HTTP/1.1" 500 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:40:41 +0000] "GET /api/v1/policys/getPolicy HTTP/1.1" 500 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:40:47 +0000] "GET /api/v1/policys/getPolicy HTTP/1.1" 200 307 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:41:02 +0000] "POST /api/v1/agents/agentLogin HTTP/1.1" 202 254 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:43:27 +0000] "POST /api/v1/agents/agentLogin HTTP/1.1" 202 254 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:43:34 +0000] "GET /api/v1/policys/getPolicy HTTP/1.1" 200 307 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:44:06 +0000] "GET /api/v1/policys/getPolicy HTTP/1.1" 200 307 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:44:43 +0000] "GET /api/v1/policys/getPolicy HTTP/1.1" 200 307 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:45:07 +0000] "POST /api/v1/customers/customerLogin HTTP/1.1" 202 247 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:45:19 +0000] "GET /api/v1/policys/getPolicy HTTP/1.1" 200 64 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:11:52:06 +0000] "GET /api/v1/policys/getPolicy HTTP/1.1" 404 53 "-" "PostmanRuntime/7.42.0"
+
