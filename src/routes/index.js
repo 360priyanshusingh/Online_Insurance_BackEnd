@@ -6,6 +6,7 @@ import employeeRoute from './employee.route';
 import agentRoute from './agent.route';
 import customerRoute from './customer.route';
 import insurancePlanRoute from './insurancePlan.route';
+import schemeRoute from './scheme.route';
 
 /**
  * Function contains Application routes
@@ -21,6 +22,7 @@ const routes = () => {
   router.use('/agents', agentRoute);
   router.use('/customers', customerRoute);
   router.use('/insurancePlans', insurancePlanRoute);
+  router.use('/schemes', schemeRoute);
 
   return router;
 };

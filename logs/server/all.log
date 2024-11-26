@@ -589,3 +589,7 @@ info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-26T0
 info: Connected to the database. {"timestamp":"2024-11-26T07:02:13.996Z"}
 info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-26T07:06:46.498Z"}
 info: Connected to the database. {"timestamp":"2024-11-26T07:06:46.682Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-26T08:58:09.215Z"}
+info: Connected to the database. {"timestamp":"2024-11-26T08:58:09.482Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-11-26T09:03:11.316Z"}
+info: Connected to the database. {"timestamp":"2024-11-26T09:03:11.458Z"}
