@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config()
 
 export const  verifyRole = (Role) => {
-    return (req, res, next) => {
+    return async (req, res, next) => {
       // Access the additional parameter
       try {
         if (req.body.role === Role) {

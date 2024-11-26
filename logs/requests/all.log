@@ -404,3 +404,21 @@ info: ::1 - - [26/Nov/2024:06:13:56 +0000] "POST /api/v1/customers/createCustome
 
 info: ::1 - - [26/Nov/2024:06:17:06 +0000] "POST /api/v1/customers/createCustomer HTTP/1.1" 201 351 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [26/Nov/2024:06:53:41 +0000] "POST /api/v1/insurancePlans/createInsurancePlan HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:06:54:45 +0000] "POST /api/v1/insurancePlans/createInsurancePlan HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:06:54:53 +0000] "POST /api/v1/insurancePlanss/createInsurancePlan HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:06:55:25 +0000] "POST /api/v1/insurancePlans/createInsurancePlan HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:06:55:57 +0000] "POST /api/v1/insurancePlans/createInsurancePlan HTTP/1.1" 201 201 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:07:02:20 +0000] "POST /api/v1/insurancePlans/createInsurancePlan/1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:07:02:59 +0000] "GET /api/v1/insurancePlans/getInsurancePlanById/1 HTTP/1.1" 200 203 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:07:03:08 +0000] "GET /api/v1/insurancePlans/getInsurancePlanById/2 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [26/Nov/2024:07:07:20 +0000] "GET /api/v1/insurancePlans/getInsurancePlan HTTP/1.1" 200 205 "-" "PostmanRuntime/7.42.0"
+
