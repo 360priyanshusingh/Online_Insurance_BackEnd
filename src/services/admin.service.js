@@ -48,7 +48,7 @@ export const newAdmin = async (body) => {
 
 };
 
-//update single Admin
+
 export const adminLogin = async (body) => {
   const data = await Admin.findOne({ where: { email: body.email } });
   if (!data) {

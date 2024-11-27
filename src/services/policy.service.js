@@ -8,8 +8,6 @@ const Policy = require('../models/policy')(sequelize, DataTypes);
 
 
 export const newPolicy = async (body) => {
-    body.customerId=body.userId
-    delete body.userId
     const policy = await Policy.create(body);
     return {
       code: HttpStatus.CREATED, 

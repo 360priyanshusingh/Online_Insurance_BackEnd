@@ -45,6 +45,11 @@ module.exports = (sequelize, DataTypes) => {
           type:DataTypes.INTEGER,
           allowNull: false,
       },
+      policys:{
+          type:DataTypes.JSONB,
+          allowNull: false,
+          defaultValue:[]
+      },
       role: {
         type: DataTypes.STRING,
         allowNull: false,

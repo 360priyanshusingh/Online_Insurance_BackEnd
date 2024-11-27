@@ -5,7 +5,7 @@ import { verifyRole } from '../middlewares/verifyRole.middleware';
 
 const router = express.Router();
 
-router.post('/createPolicy',userAuth,verifyRole("Customer"), PolicyController.newPolicy);
+router.post('/createPolicy', PolicyController.newPolicy);
 
 router.get('/getPolicyById/:id', PolicyController.getPolicyById);
 

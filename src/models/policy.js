@@ -20,10 +20,6 @@ module.exports = (sequelize, DataTypes) => {
         autoIncrement: true,
         primaryKey: true,
       },
-      customerId: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-      },
       schemeID: {
         type: DataTypes.INTEGER,
         allowNull: false,
@@ -33,7 +29,7 @@ module.exports = (sequelize, DataTypes) => {
         allowNull: false,
       },
       maturityPeriod: {
-        type: DataTypes.STRING,
+        type: DataTypes.INTEGER,
         allowNull: false,
       },
       premium: {
