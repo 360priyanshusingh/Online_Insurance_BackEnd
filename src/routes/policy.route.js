@@ -9,7 +9,7 @@ router.post('/createPolicy', PolicyController.newPolicy);
 
 router.get('/getPolicyById/:id', PolicyController.getPolicyById);
 
-router.get('/getPolicy',userAuth, PolicyController.getPolicy);
+router.get('/getPolicy', PolicyController.getPolicy);
 
 
 

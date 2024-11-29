@@ -8,6 +8,8 @@ const Scheme = require('../models/scheme')(sequelize, DataTypes);
 
 
 export const newScheme = async (body) => {
+  body.employeeId=body.userId
+  delete body.userId
     const scheme = await Scheme.create(body);
     return {
       code: HttpStatus.CREATED, 

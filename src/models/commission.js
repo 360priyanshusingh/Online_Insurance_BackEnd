@@ -1,49 +1,50 @@
 'use strict';
 const { Model } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class scheme extends Model {
+  class commission extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
+
     }
   }
  
-  scheme.init(
+  commission.init(
     {
+      
       id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
         primaryKey: true,
       },
-      schemeName: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-      schemeDetails: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-      planId:{
+      paymentId: {
         type: DataTypes.INTEGER,
-        allowNull:false
-      },
-      employeeId:{
-        type: DataTypes.INTEGER,
-        allowNull:false,
+        allowNull: false,
         references: {
-           model: 'Employees',
-           key: 'id',
-         },
+          model: 'Payments',
+          key: 'id',
+        },
+      },
+      agentId: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        references: {
+          model: 'Agents',
+          key: 'id',    
+        },
+      },
+      commissionAmount: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
       }
-
     }, {
     sequelize,
-    modelName: 'scheme',
-    tableName: 'Schemes',
+    modelName: 'commission',
+    tableName: 'Commissions',
     }
   )
-  return scheme;
+  return commission;
 };

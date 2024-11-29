@@ -98,7 +98,7 @@ export const updateAdmin = async (req, res, next) => {
  */
 export const deleteAdmin = async (req, res, next) => {
   try {
-    await AdminService.deleteAdmin(req.params.id);
+   const data = await AdminService.deleteAdmin(req.params.id);
     res.status(data.code).json({
       code: data.code,
       data: data.data,

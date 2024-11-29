@@ -42,7 +42,7 @@ export const newAdmin = async (body) => {
     return {
       code: HttpStatus.CREATED, // 201 status code
       data: user,
-      message: "User successfully created"
+      message: "Admin successfully created"
     };
   }
 
@@ -61,11 +61,13 @@ export const adminLogin = async (body) => {
 
   const passwordMatch = await bcrypt.compare(body.password, data.password);
 
+  console.log(passwordMatch)
+
   if (!passwordMatch) {
     return {
       code: HttpStatus.UNAUTHORIZED, // 401 status code
       data: null,
-      message: "User password is wrong!"
+      message: "Admin password is wrong!"
     };
   }
 
@@ -81,32 +83,34 @@ export const adminLogin = async (body) => {
   return {
     code: HttpStatus.ACCEPTED, // 202 status code (Accepted for processing)
     data: token,
-    message: "User successfully logged in"
+    message: "Admin successfully logged in"
   };
 };
 
 
 export const updateAdmin = async (id, body) => {
 
-  const data = await Admin.findOne({where:{userName:body.userName , email:body.email}});
+  const data = await Admin.findOne({where:{id:id}});
 
-  if (data) {
+  if (!data) {
     return {
       code: HttpStatus.NOT_FOUND, // 409 status code
       data: [],
-      message: "User Not Found!"
+      message: "Admin Not Found!"
     };
   }
   else{
-    
-  const admin = await Admin.update(body, {
+    const hashedPassword = await bcrypt.hash(body.password, 4);
+    body.password = hashedPassword;
+
+   const admin = await Admin.update(body, {
       where: { id: id }
     });
 
     return {
       code: HttpStatus.OK,
-      data: body,
-      message: "User successfully updated"
+      data: admin,
+      message: "Admin successfully updated"
     };
 
   }
@@ -115,7 +119,7 @@ export const updateAdmin = async (id, body) => {
 
 //delete single Admin
 export const deleteAdmin = async (id) => {
- const data = await Admin.destroy({ where: { id: id } });
+  const data = await Admin.findOne({where:{id:id}});
 
  if (!data) {
   return {
@@ -124,13 +128,15 @@ export const deleteAdmin = async (id) => {
     message: 'Admin not found'
   };
 }
-return {
-  code: HttpStatus.OK, // 200 status code
-  data:data,
-  message: 'Admin successfully retrieved'
 
+await Admin.destroy({ where: { id } });
+
+return {
+  code: HttpStatus.OK, 
+  data:[],
+  message: 'Admin successfully deleted'
 }
-  return data ;
+
 };
 
 //get single Admin
@@ -149,6 +155,6 @@ export const getAdmin = async (id) => {
     data:data,
     message: 'Admin successfully retrieved'
 
-}
+   }
 
 }

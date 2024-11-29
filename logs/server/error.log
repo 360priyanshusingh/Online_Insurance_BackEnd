@@ -517,3 +517,726 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2024-11-26T11:40:41.903Z"}
+error: 
+    status - 500 
+    message - Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.insert (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async policy.save (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:2490:35)
+    at async Function.create (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1362:12) 
+    url - /api/v1/policys/createPolicy 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T09:55:15.413Z"}
+error: 
+    status - 500 
+    message - TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+    at _iterableToArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\iterableToArray.js:2:48)
+    at _toConsumableArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\toConsumableArray.js:6:34)
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:67:74)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T10:14:32.601Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'push')
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:66:27)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T10:16:34.462Z"}
+error: 
+    status - 500 
+    message - TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+    at _iterableToArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\iterableToArray.js:2:48)
+    at _toConsumableArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\toConsumableArray.js:6:34)
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:67:74)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T10:41:17.665Z"}
+error: 
+    status - 500 
+    message - ReferenceError: employee is not defined
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:57:11)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T10:45:11.608Z"}
+error: 
+    status - 500 
+    message - TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+    at _iterableToArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\iterableToArray.js:2:48)
+    at _toConsumableArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\toConsumableArray.js:6:34)
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:67:74)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T10:47:44.218Z"}
+error: 
+    status - 500 
+    message - TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+    at _iterableToArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\iterableToArray.js:2:48)
+    at _toConsumableArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\toConsumableArray.js:6:34)
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:68:74)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T10:48:25.151Z"}
+error: 
+    status - 500 
+    message - TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+    at _iterableToArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\iterableToArray.js:2:48)
+    at _toConsumableArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\toConsumableArray.js:6:34)
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:72:74)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T10:49:41.294Z"}
+error: 
+    status - 500 
+    message - TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+    at _iterableToArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\iterableToArray.js:2:48)
+    at _toConsumableArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\toConsumableArray.js:6:34)
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:72:74)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T10:54:55.454Z"}
+error: 
+    status - 500 
+    message - TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+    at _iterableToArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\iterableToArray.js:2:48)
+    at _toConsumableArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\toConsumableArray.js:6:34)
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:72:74)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T10:55:47.879Z"}
+error: 
+    status - 500 
+    message - TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+    at _iterableToArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\iterableToArray.js:2:48)
+    at _toConsumableArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\toConsumableArray.js:6:34)
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:72:74)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T10:57:38.329Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'policy')
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:72:106)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T10:58:44.139Z"}
+error: 
+    status - 500 
+    message - TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+    at _iterableToArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\iterableToArray.js:2:48)
+    at _toConsumableArray (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\toConsumableArray.js:6:34)
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:72:75)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T11:00:38.944Z"}
+error: 
+    status - 500 
+    message - TypeError: customer.save is not a function
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:75:27)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T11:02:10.438Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'policys')
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:72:108)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T11:07:24.160Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'policys')
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:72:108)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T11:09:44.953Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'policys')
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:72:108)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T11:11:14.950Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'policys')
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\policy.service.js:72:87)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/policys/addPolicy/2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T11:12:58.053Z"}
+error: 
+    status - 500 
+    message - TypeError: PolicyService.newPolicy is not a function
+    at _callee3$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\controllers\policy.controller.js:94:32)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12
+    at newPolicy (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\controllers\policy.controller.js:115:18) 
+    url - /api/v1/policys/createPolicy 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T12:48:53.865Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Cart is not defined
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\cart.service.js:29:11)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.addPolicyIntoCart (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\cart.service.js:127:17) 
+    url - /api/v1/carts/addPolicyIntoCart/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-27T12:50:49.221Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/carts/getCart 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-28T05:44:48.076Z"}
+error: uncaughtException: relation "payment" does not exist
+Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async Function.sync (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:377:9) {"date":"Thu Nov 28 2024 13:25:03 GMT+0530 (India Standard Time)","error":{"name":"SequelizeDatabaseError","original":{"code":"42P01","file":"namespace.c","length":105,"line":"436","name":"error","routine":"RangeVarGetRelidExtended","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"Commissions\" (\"id\"  SERIAL , \"paymentId\" INTEGER NOT NULL REFERENCES \"payment\" (\"id\"), \"agentId\" INTEGER NOT NULL REFERENCES \"agent\" (\"id\"), \"commissionAmount\" INTEGER NOT NULL, \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"parameters":{},"parent":{"code":"42P01","file":"namespace.c","length":105,"line":"436","name":"error","routine":"RangeVarGetRelidExtended","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"Commissions\" (\"id\"  SERIAL , \"paymentId\" INTEGER NOT NULL REFERENCES \"payment\" (\"id\"), \"agentId\" INTEGER NOT NULL REFERENCES \"agent\" (\"id\"), \"commissionAmount\" INTEGER NOT NULL, \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"sql":"CREATE TABLE IF NOT EXISTS \"Commissions\" (\"id\"  SERIAL , \"paymentId\" INTEGER NOT NULL REFERENCES \"payment\" (\"id\"), \"agentId\" INTEGER NOT NULL REFERENCES \"agent\" (\"id\"), \"commissionAmount\" INTEGER NOT NULL, \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1220637.781},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\build\\index.js"],"cwd":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":88938,"external":4195264,"heapTotal":57004032,"heapUsed":27144456,"rss":83800064},"pid":20144,"uid":null,"version":"v20.11.1"},"stack":"Error\n    at Query.run (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js:50:25)\n    at C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PostgresQueryInterface.createTable (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:98:12)\n    at async Function.sync (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\model.js:942:7)\n    at async Sequelize.sync (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js:377:9)","timestamp":"2024-11-28T07:55:03.237Z","trace":[{"column":25,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js","function":"Query.run","line":50,"method":"run","native":false},{"column":28,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js","function":null,"line":315,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":12,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js","function":"async PostgresQueryInterface.createTable","line":98,"method":"createTable","native":false},{"column":7,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\model.js","function":"async Function.sync","line":942,"method":"sync","native":false},{"column":9,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js","function":"async Sequelize.sync","line":377,"method":"sync","native":false}]}
+error: uncaughtException: relation "payment" does not exist
+Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async Function.sync (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:377:9) {"date":"Thu Nov 28 2024 13:27:10 GMT+0530 (India Standard Time)","error":{"name":"SequelizeDatabaseError","original":{"code":"42P01","file":"namespace.c","length":105,"line":"436","name":"error","routine":"RangeVarGetRelidExtended","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"Commissions\" (\"id\"  SERIAL , \"paymentId\" INTEGER NOT NULL REFERENCES \"payment\" (\"id\"), \"agentId\" INTEGER NOT NULL REFERENCES \"agent\" (\"id\"), \"commissionAmount\" INTEGER NOT NULL, \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"parameters":{},"parent":{"code":"42P01","file":"namespace.c","length":105,"line":"436","name":"error","routine":"RangeVarGetRelidExtended","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"Commissions\" (\"id\"  SERIAL , \"paymentId\" INTEGER NOT NULL REFERENCES \"payment\" (\"id\"), \"agentId\" INTEGER NOT NULL REFERENCES \"agent\" (\"id\"), \"commissionAmount\" INTEGER NOT NULL, \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"sql":"CREATE TABLE IF NOT EXISTS \"Commissions\" (\"id\"  SERIAL , \"paymentId\" INTEGER NOT NULL REFERENCES \"payment\" (\"id\"), \"agentId\" INTEGER NOT NULL REFERENCES \"agent\" (\"id\"), \"commissionAmount\" INTEGER NOT NULL, \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1220765.171},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\build\\index.js"],"cwd":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":80792,"external":4187118,"heapTotal":57528320,"heapUsed":27050680,"rss":84193280},"pid":11092,"uid":null,"version":"v20.11.1"},"stack":"Error\n    at Query.run (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js:50:25)\n    at C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PostgresQueryInterface.createTable (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:98:12)\n    at async Function.sync (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\model.js:942:7)\n    at async Sequelize.sync (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js:377:9)","timestamp":"2024-11-28T07:57:10.632Z","trace":[{"column":25,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js","function":"Query.run","line":50,"method":"run","native":false},{"column":28,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js","function":null,"line":315,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":12,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js","function":"async PostgresQueryInterface.createTable","line":98,"method":"createTable","native":false},{"column":7,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\model.js","function":"async Function.sync","line":942,"method":"sync","native":false},{"column":9,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js","function":"async Sequelize.sync","line":377,"method":"sync","native":false}]}
+error: uncaughtException: relation "payment" does not exist
+Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async Function.sync (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:377:9) {"date":"Thu Nov 28 2024 13:29:56 GMT+0530 (India Standard Time)","error":{"name":"SequelizeDatabaseError","original":{"code":"42P01","file":"namespace.c","length":105,"line":"436","name":"error","routine":"RangeVarGetRelidExtended","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"Commissions\" (\"id\"  SERIAL , \"paymentId\" INTEGER NOT NULL REFERENCES \"payment\" (\"id\"), \"agentId\" INTEGER NOT NULL REFERENCES \"agent\" (\"id\"), \"commissionAmount\" INTEGER NOT NULL, \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"parameters":{},"parent":{"code":"42P01","file":"namespace.c","length":105,"line":"436","name":"error","routine":"RangeVarGetRelidExtended","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"Commissions\" (\"id\"  SERIAL , \"paymentId\" INTEGER NOT NULL REFERENCES \"payment\" (\"id\"), \"agentId\" INTEGER NOT NULL REFERENCES \"agent\" (\"id\"), \"commissionAmount\" INTEGER NOT NULL, \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"sql":"CREATE TABLE IF NOT EXISTS \"Commissions\" (\"id\"  SERIAL , \"paymentId\" INTEGER NOT NULL REFERENCES \"payment\" (\"id\"), \"agentId\" INTEGER NOT NULL REFERENCES \"agent\" (\"id\"), \"commissionAmount\" INTEGER NOT NULL, \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1220930.578},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\build\\index.js"],"cwd":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":72600,"external":4178926,"heapTotal":58052608,"heapUsed":27915024,"rss":82497536},"pid":29468,"uid":null,"version":"v20.11.1"},"stack":"Error\n    at Query.run (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js:50:25)\n    at C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PostgresQueryInterface.createTable (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:98:12)\n    at async Function.sync (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\model.js:942:7)\n    at async Sequelize.sync (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js:377:9)","timestamp":"2024-11-28T07:59:56.038Z","trace":[{"column":25,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js","function":"Query.run","line":50,"method":"run","native":false},{"column":28,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js","function":null,"line":315,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":12,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js","function":"async PostgresQueryInterface.createTable","line":98,"method":"createTable","native":false},{"column":7,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\model.js","function":"async Function.sync","line":942,"method":"sync","native":false},{"column":9,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js","function":"async Sequelize.sync","line":377,"method":"sync","native":false}]}
+error: uncaughtException: relation "payment" does not exist
+Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async Function.sync (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:377:9) {"date":"Thu Nov 28 2024 14:34:02 GMT+0530 (India Standard Time)","error":{"name":"SequelizeDatabaseError","original":{"code":"42P01","file":"namespace.c","length":105,"line":"436","name":"error","routine":"RangeVarGetRelidExtended","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"Commissions\" (\"id\"  SERIAL , \"paymentId\" INTEGER NOT NULL REFERENCES \"payment\" (\"id\"), \"agentId\" INTEGER NOT NULL REFERENCES \"agent\" (\"id\"), \"commissionAmount\" INTEGER NOT NULL, \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"parameters":{},"parent":{"code":"42P01","file":"namespace.c","length":105,"line":"436","name":"error","routine":"RangeVarGetRelidExtended","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"Commissions\" (\"id\"  SERIAL , \"paymentId\" INTEGER NOT NULL REFERENCES \"payment\" (\"id\"), \"agentId\" INTEGER NOT NULL REFERENCES \"agent\" (\"id\"), \"commissionAmount\" INTEGER NOT NULL, \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"sql":"CREATE TABLE IF NOT EXISTS \"Commissions\" (\"id\"  SERIAL , \"paymentId\" INTEGER NOT NULL REFERENCES \"payment\" (\"id\"), \"agentId\" INTEGER NOT NULL REFERENCES \"agent\" (\"id\"), \"commissionAmount\" INTEGER NOT NULL, \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1224777.39},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\build\\index.js"],"cwd":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":88938,"external":4195264,"heapTotal":57004032,"heapUsed":27210280,"rss":83881984},"pid":10516,"uid":null,"version":"v20.11.1"},"stack":"Error\n    at Query.run (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js:50:25)\n    at C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PostgresQueryInterface.createTable (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:98:12)\n    at async Function.sync (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\model.js:942:7)\n    at async Sequelize.sync (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js:377:9)","timestamp":"2024-11-28T09:04:02.850Z","trace":[{"column":25,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js","function":"Query.run","line":50,"method":"run","native":false},{"column":28,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js","function":null,"line":315,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":12,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js","function":"async PostgresQueryInterface.createTable","line":98,"method":"createTable","native":false},{"column":7,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\model.js","function":"async Function.sync","line":942,"method":"sync","native":false},{"column":9,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\Smart_Insurance_BackEnd\\node_modules\\sequelize\\lib\\sequelize.js","function":"async Sequelize.sync","line":377,"method":"sync","native":false}]}
+error: 
+    status - 500 
+    message - Error: Missing where or truncate attribute in the options parameter of model.destroy.
+    at Function.destroy (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1803:13)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\payment.service.js:84:23)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/payments/createPayment 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-28T09:15:21.324Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'totalPremium')
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\payment.service.js:38:28)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/payments/createPayment 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-28T09:30:59.811Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/commissions/getCommission 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-29T05:29:03.955Z"}
+error: 
+    status - 500 
+    message - Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1219:13)
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\commission.service.js:53:29)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12) 
+    url - /api/v1/commissions/getCommissionById/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-29T05:41:37.114Z"}
+error: 
+    status - 500 
+    message - Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1219:13)
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\commission.service.js:53:29)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12) 
+    url - /api/v1/commissions/getCommissionById/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-29T05:41:58.999Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'premium')
+    at _callee3$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\commission.service.js:98:31)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/commissions/getCommissionByPolicyId/3 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-29T06:24:16.684Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'premium')
+    at _callee3$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\services\commission.service.js:98:31)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/commissions/getCommissionByPolicyId/3 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-29T06:28:18.474Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee6$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\controllers\admin.controller.js:218:22)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admins/deleteAdmin/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-11-29T07:27:07.138Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee6$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\controllers\admin.controller.js:218:22)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admins/deleteAdmin/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-11-29T07:29:32.166Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee6$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\controllers\admin.controller.js:218:22)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admins/deleteAdmin/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-11-29T07:29:48.601Z"}
+error: 
+    status - 500 
+    message - Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at async PostgresQueryInterface.insert (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async admin.save (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:2490:35)
+    at async Function.create (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1362:12) 
+    url - /api/v1/admins/createAdmin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T07:38:30.657Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee6$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\controllers\admin.controller.js:218:22)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admins/deleteAdmin/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-11-29T07:48:11.038Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee6$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\controllers\admin.controller.js:218:22)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admins/deleteAdmin/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-11-29T07:50:32.685Z"}
+error: 
+    status - 500 
+    message - Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at async PostgresQueryInterface.insert (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async admin.save (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:2490:35)
+    at async Function.create (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1362:12) 
+    url - /api/v1/admins/createAdmin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T07:52:20.612Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee6$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\controllers\admin.controller.js:218:22)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admins/deleteAdmin/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-11-29T07:53:03.995Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee6$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\controllers\admin.controller.js:218:22)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admins/deleteAdmin/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-11-29T07:54:57.801Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee6$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\controllers\admin.controller.js:218:22)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admins/deleteAdmin/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-11-29T08:48:00.631Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\middlewares\auth.middleware.js:42:43)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7 
+    url - /api/v1/employees/getEmployee 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-29T09:11:27.071Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/employees/getEmployee 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-29T09:11:43.896Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/agents/getAgent 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-29T09:12:50.717Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/customers/createCustomer 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-11-29T09:14:43.279Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/customers/createCustomer 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-11-29T09:14:59.251Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/agents/getAgent 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-29T09:17:24.611Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/agents/getAgent 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-29T09:17:38.920Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/agents/getAgent 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-29T09:18:21.057Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/agents/getAgent 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-29T09:18:41.266Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/schemes/createScheme 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-11-29T09:24:02.485Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\middlewares\auth.middleware.js:42:43)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7 
+    url - /api/v1/schemes/createScheme 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T09:24:21.723Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\build\middlewares\auth.middleware.js:42:43)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7 
+    url - /api/v1/schemes/createScheme 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T09:24:28.976Z"}
+error: 
+    status - 500 
+    message - Error
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.select (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Function.findAll (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\Smart_Insurance_BackEnd\node_modules\sequelize\lib\model.js:1140:21) 
+    url - /api/v1/policys/getPolicy 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-29T09:31:37.116Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/carts/getCart 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-29T09:38:35.901Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/carts/getCart 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-29T09:43:22.808Z"}
+error: 
+      status - 400
+      message - Unauthorized Role! 
+      url - /api/v1/payments/getPayment 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-11-29T09:55:09.168Z"}

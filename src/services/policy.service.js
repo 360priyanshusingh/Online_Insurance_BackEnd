@@ -5,6 +5,7 @@ import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv'
 dotenv.config()
 const Policy = require('../models/policy')(sequelize, DataTypes);
+const Customer = require('../models/customer')(sequelize, DataTypes);
 
 
 export const newPolicy = async (body) => {
@@ -16,6 +17,7 @@ export const newPolicy = async (body) => {
     };
    
 };
+
 
 export const getPolicyById = async (id) => {
   const data = await Policy.findByPk(id);
@@ -36,8 +38,8 @@ export const getPolicyById = async (id) => {
 
 }
 
-export const getPolicy = async (customerId) => {
-  const data = await Policy.findAll({where:{customerId:customerId}});
+export const getPolicy = async () => {
+  const data = await Policy.findAll();
 
  if (!data || data.length==0) {
     return {

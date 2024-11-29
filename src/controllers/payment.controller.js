@@ -1,10 +1,10 @@
 import HttpStatus from 'http-status-codes';
-import * as PolicyService from '../services/policy.service';
+import * as PaymentService from '../services/payment.service';
 
 
-export const getPolicyById = async (req, res, next) => {
+export const getPaymentById = async (req, res, next) => {
   try {
-    const data = await PolicyService.getPolicyById(req.params.id);
+    const data = await PaymentService.getPaymentById(req.params.id);
     res.status(data.code).json({
       code: data.code,
       data: data.data,
@@ -15,9 +15,9 @@ export const getPolicyById = async (req, res, next) => {
   }
 };
 
-export const getPolicy = async (req, res, next) => {
+export const getPayment = async (req, res, next) => {
   try {
-    const data = await PolicyService.getPolicy();
+    const data = await PaymentService.getPayment(req.body.userId);
     res.status(data.code).json({
       code: data.code,
       data: data.data,
@@ -29,14 +29,14 @@ export const getPolicy = async (req, res, next) => {
 };
 
 /**
- * Controller to create a new Policy
+ * Controller to create a new Payment
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
  */
-export const newPolicy = async (req, res, next) => {
+export const newPayment = async (req, res, next) => {
   try {
-    const data = await PolicyService.newPolicy(req.body);
+    const data = await PaymentService.newPayment(req.body.userId);
     res.status(data.code).json({
       code: data.code,
       data: data.data,

@@ -14,7 +14,6 @@ module.exports = (sequelize, DataTypes) => {
  
   policy.init(
     {
-      
       id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,

@@ -8,6 +8,9 @@ import customerRoute from './customer.route';
 import insurancePlanRoute from './insurancePlan.route';
 import schemeRoute from './scheme.route';
 import policyRoute from './policy.route';
+import cartRoute from './cart.route';
+import paymentRoute from './payment.route';
+import commissionRoute from './commission.route';
 
 /**
  * Function contains Application routes
@@ -25,6 +28,9 @@ const routes = () => {
   router.use('/insurancePlans', insurancePlanRoute);
   router.use('/schemes', schemeRoute);
   router.use('/policys', policyRoute);
+  router.use('/carts', cartRoute);
+  router.use('/payments', paymentRoute);
+  router.use('/commissions',commissionRoute);
 
   return router;
 };
