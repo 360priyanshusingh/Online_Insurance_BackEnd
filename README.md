@@ -1,6 +1,4 @@
-<<<<<<<
-**Online_Insurance_BackEnd**=======
->>>>>>> 
+<<<<<<<**Online_Insurance_BackEnd**>>>>>>> 
 "# Developed a robust backend for an online insurance management system, enabling secure and efficient functionalities for admins, employees, agents, and customers, using Node.js and Express.js.
 
 Implemented secure user registration flows for admins, employees, agents, and customers by utilizing hashing algorithms for password storage and RabbitMQ to send email confirmations. Key events like registrations were logged using NLog to ensure traceability.
